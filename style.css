@@ -1,0 +1,143 @@
+:root {
+  --main-color: #37517e;
+  --blue: #37517e;
+}
+.hero-section {
+  background-color: var(--main-color);
+}
+.hero-section a {
+  color: white !important;
+}
+.hero-section a:hover {
+  color: #47acdc !important;
+}
+.btn-1:hover {
+  color: #47acdc !important;
+}
+
+.dropdown-menu a {
+  color: black !important;
+}
+.animation-img {
+  animation: move 1s linear alternate infinite;
+}
+.text-blue {
+  color: var(--blue) !important ;
+}
+.accordian-1 {
+  font-weight: bolder !important;
+  color: var(--blue);
+}
+.accordian-1:hover {
+  font-weight: bolder !important;
+  color: var(--bs-info);
+}
+.accordian-2 {
+  font-weight: bolder !important;
+  color: var(--blue);
+}
+.accordian-2:hover {
+  font-weight: bolder !important;
+  color: var(--bs-info);
+}
+.accordian-3 {
+  font-weight: bolder !important;
+  color: var(--blue);
+}
+.accordian-3:hover {
+  font-weight: bolder !important;
+  color: var(--bs-info);
+}
+.text-sm {
+  font-size: 0.8rem !important;
+}
+.gray {
+  width: 13%;
+  height: 1px;
+  background-color: rgb(165, 164, 164);
+  margin: auto;
+  position: relative;
+}
+.blue {
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 2px;
+  background-color: var(--bs-info);
+  margin: auto;
+}
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3333 !important;
+  top: 0 !important;
+  background-color: #3d4d6a;
+}
+
+.bg-blue {
+  background-color: var(--main-color);
+}
+.my-service-card {
+  transition: all 0.4s;
+}
+.my-service-card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.my-service-card h4 {
+  transition: all 0.4s;
+}
+.my-service-card:hover h4 {
+  color: var(--bs-info) !important;
+}
+.my-work-card img {
+  transition: all 0.5s;
+}
+.my-work-card:hover img {
+  scale: 1.1;
+}
+.number {
+  position: relative;
+  z-index: 999;
+}
+.my-work-card:hover .card-content {
+  transform: translateY(-10px);
+}
+.my-work-card.card-content {
+  transition: all 0.5s;
+}
+
+.parallax-section {
+  background-image: url("https://themewagon.github.io/arsha/assets/img/bg/bg-8.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+}
+
+.parallax-section h2,
+.parallax-section p {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.brand-images img {
+  filter: grayscale(100%);
+  transition: all0.2s;
+}
+.brand-images img:hover {
+  filter: grayscale(0);
+  scale: 1.05;
+}
